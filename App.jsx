@@ -39,7 +39,7 @@ export default function App() {
   return (
     <SafeAreaView  
     style={{marginTop: Constants.statusBarHeight, backgroundColor: colors[currentTime] }} 
-    className={`flex-1  py-20 px-4 }`} >      
+    className={`flex-1  py-20  }`} >      
      <Text className="text-2xl  px-2 text-slate-100 " > Pomodoro </Text>      
       <Navigation  
       setTime={setTime} 

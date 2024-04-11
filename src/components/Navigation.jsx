@@ -11,12 +11,12 @@ const Navigation = ({time, currentTime, setCurrentTime, setTime }) => {
    
 
   return (
-    <View className="flex flex-row gap-2  w-full p-4 " >
+    <View className="flex flex-row  gap-1 w-full p-4 " >
         {options?.map((option , index) => (
             <TouchableOpacity 
             key={index} 
             onPress={() => handlePress(index)}  
-            className={`py-2 px-4 flex-grow  items-center  rounded-lg  ${currentTime === index ? 'bg-blue-900/90' : 'bg-blue-950/90'} `} >
+            className={`py-2  flex-grow  items-center  rounded-lg  ${currentTime === index ? 'bg-blue-900/90' : 'bg-blue-950/90'} `} >
                 <Text className="text-xs   text-white " > {option} </Text>
             </TouchableOpacity>
         ))}        

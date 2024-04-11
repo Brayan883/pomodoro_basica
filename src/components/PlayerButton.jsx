@@ -9,9 +9,9 @@ const PlayerButton = ({ isActivate, setIsActivate }) => {
     <View className="py-2 px-4 " >      
       <TouchableOpacity 
       onPress={handleStartTop}
-      className=" flex-row justify-center items-center bg-[#333333]   rounded  " >
-          <Text className="text-white text-lg py-2" >{isActivate ? 'pause' : 'start'}</Text>
-          <Icon name={ isActivate ? 'pause' : 'play-arrow' } size={30} color="white" />
+      className=" flex-row justify-center items-center bg-[#333333] py-2  rounded  " >
+          <Text className="text-white text-xl" >{isActivate ? 'Pausar' : 'Comenzar'}</Text>
+          <Icon name={ isActivate ? 'pause' : 'play-arrow' } size={25} color="white" />
       </TouchableOpacity>      
     </View>
   )

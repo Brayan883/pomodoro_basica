@@ -6,7 +6,7 @@ export const colors = [
 
 export const options = [
     'Pomodoro', 
-    'Short Break', 
-    'Long Break'
+    'Corto Descanso', 
+    'Largo Descanso'
 ]
 
